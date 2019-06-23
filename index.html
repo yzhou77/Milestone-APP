@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>from_test</title>
+    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.css" type="text/css" />
+    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-1.0.4.min.js"></script>
+    {{ script|safe }}
+</head>
+<body>
+    <div align="center">
+    <h1> Stock Close Price For One Month</h1>
+<form id="test1" method="post" action="/">
+    Ticker Symbol:<input type="text" name="Ticker" placeholder="GOOG"/> 
+    Year:<input type="text" name="year" placeholder="2019"/> 
+    Month:<input type="text" name="month" placeholder="1"/>  
+    <input type="submit" value="Submit"/>
+</form>   
+{{ div|safe }}  
+    </div>
+</body>
+</html>
