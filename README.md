@@ -6,5 +6,4 @@
   When using the app, just input the stock ticker symbol, year and month one would like to analyze, and click "submit".
   The corresponding plot of the stock closing price will be created below.
 
-  Data Source: Yahoo Finance
-  Visualization Tool: Bokeh
+  Data Source: Yahoo Finance  Visualization Tool: Bokeh
